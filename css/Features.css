@@ -1,0 +1,32 @@
+h3 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: 8f8f8f;
+}
+.section {
+  background-color: #ff4c68;
+  padding-left: 122px;
+  margin: 0;
+}
+.icon {
+  padding: 2rem;
+  font-size: 2.5rem;
+  color: #ff4c68;
+}
+.icon:hover {
+  color: #cc3c53
+;
+}
+.feature-box {
+  text-align: center;
+  padding: 4%;
+}
+#features {
+  background-color: whitesmoke;
+  padding: 5% 15%;
+}
