@@ -1,0 +1,47 @@
+/*                                  classeS                                                             */
+
+.h2Class {
+  position: relative;
+  font-family: 'Montserrat-Bold', sans-serif;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+.testimonials-img {
+  width: 15%;
+  border-radius: 100%;
+  padding: 3%;
+}
+
+.emClass {
+  font-weight: bold;
+  color: white;
+}
+/*                                  idS                                                                */
+
+#testimonials {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+/*                                          PRESS                                                       */
+
+/*                                          classeS                                                    */
+
+.imgClass {
+  width: 95%;
+  margin: 100px 10px 20px;
+}
+.carousel-item {
+  padding: 7% 20%;
+}
+
+/*                                          idS                                                         */
+
+#press {
+  background-color: #ff4c68;
+}

@@ -1,0 +1,27 @@
+/*clasS*/
+.intro{
+    font-weight: bolder;
+    line-height: 1.5rem;
+    padding: 20px;
+}
+.col{
+    padding: 20px;
+}
+/*idS*/
+#pricing {
+  text-align: center;
+  padding: 50px;
+}
+
+/*                                      ENROLL                                      */
+
+#cta {
+  text-align: center;
+}
+
+/*                                      FOOTER                                      */
+
+#footer {
+  text-align: center;
+  margin: 0;
+}

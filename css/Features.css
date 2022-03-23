@@ -8,6 +8,9 @@ p {
   font-size: 1rem;
   color: 8f8f8f;
 }
+.otraclass {
+  padding: 30px;
+}
 .section {
   background-color: #ff4c68;
   padding-left: 122px;
@@ -19,8 +22,7 @@ p {
   color: #ff4c68;
 }
 .icon:hover {
-  color: #cc3c53
-;
+  color: #cc3c53;
 }
 .feature-box {
   text-align: center;
@@ -29,4 +31,6 @@ p {
 #features {
   background-color: whitesmoke;
   padding: 5% 15%;
+  position: relative;
+  z-index: 1;
 }
