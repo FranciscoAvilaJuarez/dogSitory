@@ -52,13 +52,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">contact</a>
+              <a class="nav-link" href="#footer">contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">pricing</a>
+              <a class="nav-link" href="#pricing">pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">download</a>
+              <a class="nav-link" href="#cta">download</a>
             </li>
           </ul>
         </div>
@@ -250,7 +250,7 @@
           <div class="card mb-4 rounded-3 shadow-sm border-dark">
             <div class="card-header py-3 text-dark bg-Light border-Default">
               <h2 class="my-0 fw-normal">Free</h2>
-              <h3>Chihuahua</h3>
+              <h3 class="Price-Heading">Chihuahua</h3>
             </div>
             <div class="card-body">
               <h1 class="card-title pricing-card-title">
@@ -274,7 +274,7 @@
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm border-dark">
             <div class="card-header py-3 text-dark bg-Light border-Default">
-              <h3 class="my-0 fw-normal">Labrador</h3>
+              <h3 class="my-0 fw-normal; Price-Heading">Labrador</h3>
               <h2>$49 / mo</h2>
             </div>
             <div class="card-body">
@@ -296,7 +296,7 @@
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm border-dark">
             <div class="card-header py-3 text-dark bg-Light border-Default">
-              <h3 class="my-0 fw-normal">Mastiff</h3>
+              <h3 class="my-0 fw-normal; Price-Heading">Mastiff</h3>
               <h2>$99 / mo</h2>
             </div>
             <div class="card-body">
@@ -326,29 +326,51 @@
     <section id="cta" class="container-fluid">
       <div>
         <div>
-          <h3>Find the True Love of Your Dog's Life Today.</h3>
+          <h3 class="cta-Heading">
+            Find the True Love of Your Dog's Life Today.
+          </h3>
         </div>
-        <div lass="d-grid gap-2 d-md-flex justify-content-md-end">
-          <button type="button" class="btn btn-outline-dark me-md-2">
+        <div class="dwnButtons">
+          <button type="button" class="btn btn-md btn-outline-dark">
+            <i class="fa-brands fa-apple"></i>
             Download
           </button>
-          <button type="button" class="btn btn-outline-dark me-md-2">
+          <button type="button" class="btn btn-md btn-dark">
+            <i class="fa-brands fa-google-play"></i>
+            Download
+          </button>
+          <button type="button" class="btn btn-md btn-outline-dark down">
+            <i class="fa-brands fa-windows"></i>
             Download
           </button>
         </div>
       </div>
     </section>
 
+    <!-- Social  -->
+    <section id="social" class="container-fluid">
+      <div class="d-flex justify-content-evenly">
+        <div class="social-Icon">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-tiktok"></i>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer -->
-    <div class="container-fluid">
-      <footer id="footer">
-        <p>© Copyright TinDog</p>
-      </footer>
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"
-      ></script>
-    </div>
+    <section>
+      <div class="container-static footer">
+        <footer id="footer">
+          <p>© Copyright TinDog</p>
+        </footer>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+          crossorigin="anonymous"
+        ></script>
+      </div>
+    </section>
   </body>
 </html>

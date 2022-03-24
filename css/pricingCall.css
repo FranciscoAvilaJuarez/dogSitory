@@ -1,11 +1,26 @@
 /*clasS*/
-.intro{
-    font-weight: bolder;
-    line-height: 1.5rem;
-    padding: 20px;
+
+.Price-Heading {
+  color: antiquewhite;
+  font-weight: bold;
 }
-.col{
-    padding: 20px;
+.Price-Heading:hover {
+  color: #ff4c68;
+}
+.button {
+  margin: 3%;
+}
+.intro {
+  font-weight: bolder;
+  line-height: 1.5rem;
+  padding: 20px;
+}
+
+.load {
+  margin: 5%;
+}
+.col {
+  padding: 20px;
 }
 /*idS*/
 #pricing {
@@ -14,14 +29,34 @@
 }
 
 /*                                      ENROLL                                      */
+.cta-Heading {
+  font-family: 'Montserrat-white', sans-serif;
+  color: antiquewhite;
+}
 
 #cta {
   text-align: center;
+  background-color: #ff4c68;
+  padding: 10%;
+  padding-bottom: 0%;
+}
+
+/*                                      social                                      */
+
+#social {
+  font-family: 'Montserrat-white', sans-serif;
+  background-color: #ff4c68;
+  
+}
+
+.social-Icon {
+  color: antiquewhite;
 }
 
 /*                                      FOOTER                                      */
-
-#footer {
+.footer {
+  background-color: #ff4c68;
   text-align: center;
-  margin: 0;
+  padding: 3%;
+  padding-top: 0%;
 }

@@ -4,9 +4,10 @@ h3 {
   font-weight: bolder;
 }
 p {
-  font-family: 'Montserrat', sans-serif;
+  
   font-size: 1rem;
-  color: 8f8f8f;
+  color: #8f8f8f;
+  font-weight: bold;
 }
 .otraclass {
   padding: 30px;
@@ -22,7 +23,7 @@ p {
   color: #ff4c68;
 }
 .icon:hover {
-  color: #cc3c53;
+  color: #ff5d77;
 }
 .feature-box {
   text-align: center;
@@ -30,7 +31,8 @@ p {
 }
 #features {
   background-color: whitesmoke;
-  padding: 5% 15%;
+  color: #ff4c68;
+  
   position: relative;
   z-index: 1;
 }

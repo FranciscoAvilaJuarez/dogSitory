@@ -1,11 +1,13 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  
 }
 
 h1 {
   font-family: 'Montserrat-Black', sans-serif;
   font-size: 3.5rem;
-  line-height: 1.5;
+  
   font-weight: bolder;
   color: antiquewhite;
 }
@@ -29,11 +31,11 @@ h1 {
 }
 /* top/bottom  left/right */
 .container-fluid {
-  padding: 0% 10%;
+  padding: 3% 10%;
 }
 
 .dwnButtons {
-  padding-top: 5%;
+  padding-top: 3%;
   position: relative;
   z-index: 1;
 }

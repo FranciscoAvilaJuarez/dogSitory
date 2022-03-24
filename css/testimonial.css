@@ -24,7 +24,6 @@
 #testimonials {
   background-color: #ff4c68;
   text-align: center;
-  padding-bottom: 0;
   margin: 0;
 }
 
@@ -33,7 +32,7 @@
 /*                                          classeS                                                    */
 
 .imgClass {
-  width: 95%;
+  width: 90%;
   margin: 100px 10px 20px;
 }
 .carousel-item {
